@@ -68,13 +68,17 @@
 
   .tag-cmp {
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 20px !important;
 
     p {
       width: 100%;
       text-transform: uppercase;
       text-align: right;
+
+      @media screen and (max-width: 1200px) {
+        text-align: center;
+      }
     }
   }
 
@@ -89,6 +93,8 @@
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
+    // justify-content: center;
+    // align-items: center;
   }
 }
 
