@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Design</span>
+        I Know that <span>Good Apps</span>
         <br />
         Means <span>Good Business</span>
       </h2>
