@@ -44,6 +44,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
+        {/* Filters for portfolio work - Add remove strings for different categories */}
         {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map(
           (item, index) => (
             <div
