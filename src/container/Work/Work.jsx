@@ -45,7 +45,7 @@ const Work = () => {
 
       <div className="app__work-filter">
         {/* Filters for portfolio work - Add remove strings for different categories */}
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map(
+        {['All', 'UI/UX', 'Web App', 'React JS', 'Tailwind'].map(
           (item, index) => (
             <div
               key={index}
