@@ -6,16 +6,33 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <FaGithub />
+        <a
+          href="https://github.com/MBMarsell/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub />
+        </a>
       </div>
       <div>
-        <BsTwitter />
+        <a
+          href="https://twitter.com/MartinMarsell"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsTwitter />
+        </a>
       </div>
       <div>
-        <BsInstagram />
+        <a
+          href="https://www.instagram.com/martinmarsell"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsInstagram />
+        </a>
       </div>
     </div>
   );
 };
-
 export default SocialMedia;
