@@ -10,6 +10,7 @@ const SocialMedia = () => {
           href="https://github.com/MBMarsell/"
           target="_blank"
           rel="noreferrer"
+          aria-label="Github"
         >
           <FaGithub />
         </a>
@@ -19,6 +20,7 @@ const SocialMedia = () => {
           href="https://twitter.com/MartinMarsell"
           target="_blank"
           rel="noreferrer"
+          aria-label="Twitter"
         >
           <BsTwitter />
         </a>
@@ -28,6 +30,7 @@ const SocialMedia = () => {
           href="https://www.instagram.com/martinmarsell"
           target="_blank"
           rel="noreferrer"
+          aria-label="Instagram"
         >
           <BsInstagram />
         </a>

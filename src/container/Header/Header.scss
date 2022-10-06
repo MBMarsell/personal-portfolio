@@ -1,9 +1,9 @@
 #home {
   position: relative;
-  background: url('../../assets/bgIMG.png');
-  background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
+  // background: url('../../assets/bgIMG.png');
+  // background-size: cover;
+  // background-repeat: repeat;
+  // background-position: center;
 
   .app__wrapper {
     padding: 0;
@@ -178,6 +178,7 @@
 
   img {
     width: 100%;
+    height: auto;
     object-fit: contain;
     z-index: 1;
   }
