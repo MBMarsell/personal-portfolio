@@ -84,9 +84,8 @@ const Footer = () => {
               className="p-text"
               placeholder="Your Message"
               name="message"
-              id=""
-              cols="30"
-              rows="10"
+              value={message}
+              onChange={handleChangeInput}
             ></textarea>
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>
